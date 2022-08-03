@@ -4,7 +4,8 @@
   "description": "Reference solution of Employees API",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "start": "node server.js"
   },
   "author": "Mykhailo Dorokhov",
   "license": "ISC",
