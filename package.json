@@ -25,6 +25,7 @@
     "redis": "^4.2.0"
   },
   "devDependencies": {
+    "node-fetch": "^2.6.7",
     "nodemon": "^2.0.19"
   }
 }
