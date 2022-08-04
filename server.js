@@ -13,5 +13,5 @@ const router = require("./lib/routes/employees-router");
 app.use(router.middleware());
 
 app.listen(PORT, () =>
-  console.log(`Server is running at http://localhost:${PORT}`)
+  console.log(`\nServer is running at http://localhost:${PORT}`)
 );
