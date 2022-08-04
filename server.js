@@ -6,6 +6,9 @@ const PORT = 3000;
 const bodyParser = require("koa-bodyparser");
 app.use(bodyParser());
 
+const logger = require("koa-logger");
+app.use(logger());
+
 const router = require("./lib/routes/employees-router");
 app.use(router.middleware());
 
